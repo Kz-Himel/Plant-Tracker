@@ -35,11 +35,11 @@
      <hr class="my-5 ">
 
      <!-- Main Section -->
-     <main class="w-[80%] mx-auto">
+     <main class="w-[80%] mx-auto" id="main-conatiner">
         <div class="mb-6">
-            <button class="bg-black text-white px-5 py-2" id="all-filter-btn">All</button>
-            <button class="bg-gray-300 px-5 py-2" id="thrive-filter-btn">Thriving</button>
-            <button class="bg-gray-300 px-5 py-2" id="struggle-filter-btn">Struggling</button>
+            <button onclick="toggleStyle('all-filter-btn')" class="bg-black text-white px-5 py-2" id="all-filter-btn">All</button>
+            <button onclick="toggleStyle('thrive-filter-btn')" class="bg-gray-300 px-5 py-2" id="thrive-filter-btn">Thriving</button>
+            <button onclick="toggleStyle('struggle-filter-btn')" class="bg-gray-300 px-5 py-2" id="struggle-filter-btn">Struggling</button>
         </div>
 
         <!-- Card Container -->
@@ -176,5 +176,8 @@
          </section>
      </main>
 
+
+     <!-- JS Link -->
+     <script src="script.js"></script>
 </body>
 </html>
